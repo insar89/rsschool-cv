@@ -12,3 +12,13 @@
     - CSS 2/10
     - JS 4/10
     - Git 3/10
+5. Code example:
+    [Task on codewars](https://www.codewars.com/kata/54e6533c92449cc251001667)
+```javascript
+const uniqueInOrder = (iterable) => {
+  if ( Array.isArray(iterable) )
+    return iterable.filter( (el, i, a) => (i > 0) ? a.indexOf(el, i - 1) === i : a.indexOf(el) === i);
+
+    return iterable.split('').filter( (el, i, a) => (i > 0) ? a.indexOf(el, i - 1) === i : a.indexOf(el) === i);
+  };
+```
