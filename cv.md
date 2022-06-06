@@ -22,3 +22,6 @@ const uniqueInOrder = (iterable) => {
     return iterable.split('').filter( (el, i, a) => (i > 0) ? a.indexOf(el, i - 1) === i : a.indexOf(el) === i);
   };
 ```
+6. --
+7. Education:
+   - Kazan (Volga region) Federal University. The Bachelor in Applied Mathematics.
