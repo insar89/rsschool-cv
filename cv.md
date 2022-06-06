@@ -25,3 +25,5 @@ const uniqueInOrder = (iterable) => {
 6. --
 7. Education:
    - Kazan (Volga region) Federal University. The Bachelor in Applied Mathematics.
+8. English:
+    - A2-B1. I speak and write English poorly, but I can easily read technical documentation.
