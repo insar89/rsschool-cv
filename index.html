@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/png" href="./assets/favicon.ico"/>
+    <title>Insar Aganov / CV</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+            rel="stylesheet"
+    />
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="nav-bar">
+            <li>Contacts</li>
+            <li>Summary</li>
+            <li>Skills</li>
+            <li>Code</li>
+            <li>Education</li>
+            <li>English</li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="avatar">
+        <img src="./assets/img/avatar.png" alt="avatar"/>
+    </div>
+
+    <div class="name">
+        <div class="name-full"></div>
+        <h1>Insar Aganov</h1>
+    </div>
+
+    <hr class="line"/>
+
+    <div class="contacts">
+        <h2>Contacts</h2>
+        <ul class="contacts-list">
+            <li>
+                <img
+                        src="./assets/img/logo/location_logo.svg"
+                        alt="location"
+                        class="logo"
+                />
+                Russia, Kazan
+            </li>
+            <li>
+                <img
+                        src="./assets/img/logo/telegram_logo.png"
+                        alt="telegram"
+                        class="logo"
+                />
+                t.me/insar89
+            </li>
+            <li>
+                <img
+                        src="./assets/img/logo/mail_logo.png"
+                        alt="mail"
+                        class="logo"
+                />
+                insar21@gmail.com
+            </li>
+            <li>
+                <img
+                        src="./assets/img/logo/discord_logo.png"
+                        alt="discord"
+                        class="logo"
+                />
+                insar89#2517
+            </li>
+        </ul>
+    </div>
+
+    <hr class="line"/>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML 3/10</li>
+            <li>CSS 2/10</li>
+            <li>JS 4/10</li>
+            <li>Git 3/10</li>
+        </ul>
+    </div>
+
+    <hr class="line"/>
+
+    <div class="education">
+        <h2>Education</h2>
+        <p>
+            Kazan (Volga region) Federal University. The Bachelor in Applied
+            Mathematics
+        </p>
+    </div>
+
+    <hr class="line"/>
+
+    <div class="summary">
+        <h2>Summary</h2>
+        <p>
+            Changing occupation. Looking for something where I need to constantly
+            study, improve myself.
+        </p>
+        <ul>
+            <li>Care for the elderly 7 years</li>
+            <li>Virtual goods trading 13 years</li>
+        </ul>
+    </div>
+
+    <hr class="line"/>
+
+    <div class="code">
+        <h2>Code example</h2>
+        <a href="https://www.codewars.com/kata/54e6533c92449cc251001667"
+        >Task on codewars</a
+        >
+
+        <pre><code>
+        const uniqueInOrder = (iterable) =&gt; {
+        if ( Array.isArray(iterable) )
+          return iterable.filter( (el, i, a) =&gt; (i &gt; 0) ? a.indexOf(el, i - 1) === i : a.indexOf(el) === i);
+
+          return iterable.split('').filter( (el, i, a) =&gt; (i &gt; 0) ? a.indexOf(el, i - 1) === i : a.indexOf(el) === i);
+        };
+        </code></pre>
+    </div>
+
+    <hr class="line"/>
+
+    <div class="english">
+        <h2>English</h2>
+        <p>
+            A1-A2. I speak and write English poorly, but I can easily read
+            technical documentation
+        </p>
+    </div>
+
+    <hr class="line"/>
+
+    <div class="projects">
+        <h2>Projects</h2>
+        <p>No experience as a programmer</p>
+    </div>
+</main>
+
+<footer>
+    <p class="footer-info-2">2022</p>
+    <a href="https://rs.school/js/" target="_blank" class="footer-info-3">
+        <img
+                src="./assets/img/logo/rs_school_js.svg"
+                alt="rs-school logo"
+                class="rs-logo"
+        />
+    </a>
+
+    <a
+            href="https://github.com/insar89"
+            target="_blank"
+            class="footer-info-1"
+    >
+        <img src="./assets/img/logo/gh_logo.png" alt="gh-logo" class="logo"/>
+    </a>
+</footer>
+</body>
+</html>
