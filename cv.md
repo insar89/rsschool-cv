@@ -26,6 +26,7 @@ CV составляется на английском языке.
 1. **_Zamir Bezgoev_**
 2. **Contacts**:
     - *email*: zamir.bezgoev@yahoo.eu
+    - *discord*: insar89
 3. Changing occupation.
     - *Care for the elderly* - 7 years
     - *Virtual goods trading* - 13 years
